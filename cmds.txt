@@ -1,5 +1,0 @@
- receiver = accounts[1]; tokenInstance.transfer(receiver, 1, {from: admin})
-
-tokenInstance.balanceOf( receiver)
-
-DappToken.deployed().then(function(instance) { tokenInstance = instance})

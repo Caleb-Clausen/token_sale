@@ -5200,14 +5200,66 @@
   },
   "networks": {
     "5777": {
-      "events": {},
+      "events": {
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0x5CdFED49E249C638e9eb7D1B711E3Ee92C92fb13",
-      "transactionHash": "0xb3d6335e7c330c4b189f54832eb627bedb74872ecb26b26c5e6b261ac5b3e752"
+      "address": "0x3d92994654F071D285D4a4c0b6A9aF44a7Df4eDb",
+      "transactionHash": "0xf0a423632210ef0fee7a3b5100c85c5c69f6c88efdaa669b6fd62bee3ced982e"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-02-16T16:44:39.409Z",
+  "updatedAt": "2021-02-18T16:35:54.998Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
